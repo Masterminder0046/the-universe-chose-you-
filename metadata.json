@@ -1,0 +1,6 @@
+{
+  "name": "The Universe Chose You",
+  "description": "An emotional, cinematic, interactive storytelling birthday experience for Bhuvi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
