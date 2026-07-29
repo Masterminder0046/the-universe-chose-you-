@@ -186,7 +186,7 @@ export const Chapter1Door: React.FC<Chapter1Props> = ({ onNext }) => {
               </div>
 
               <img 
-                src="/assets/cake_hand_transparent.png" 
+                src="./assets/cake_hand_transparent.png" 
                 alt="A beautiful cake presented" 
                 className="w-[450px] max-w-full relative z-10 drop-shadow-[0_0_40px_rgba(251,191,36,0.2)]" 
                 style={{

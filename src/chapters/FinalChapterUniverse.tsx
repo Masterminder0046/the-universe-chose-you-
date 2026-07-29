@@ -168,7 +168,7 @@ export const FinalChapterUniverse: React.FC<FinalProps> = ({ onRestartStory }) =
             <div className={`relative w-64 h-64 sm:w-80 sm:h-80 mb-8 drop-shadow-2xl transition-all duration-700 group ${
               stage === "FOCUSING" ? "animate-pulse" : ""
             }`}>
-              <img src="/assets/images/camera.png" alt="Vintage Camera" className="w-full h-full object-contain" />
+              <img src="./assets/images/camera.png" alt="Vintage Camera" className="w-full h-full object-contain" />
               {/* Blinking recording light */}
               <div className={`absolute top-[28%] right-[22%] w-3 h-3 bg-red-500 rounded-full shadow-[0_0_10px_red] transition-opacity duration-300 ${
                 ["FOCUSING", "FLASH_AND_PRINT"].includes(stage) ? "animate-ping opacity-100" : "opacity-0"
@@ -211,7 +211,7 @@ export const FinalChapterUniverse: React.FC<FinalProps> = ({ onRestartStory }) =
               
               {/* The Photo (Being Focused) */}
               <img 
-                src="/assets/images/bhuvi_photo.jpg" 
+                src="./assets/images/bhuvi_photo.jpg" 
                 alt="Focusing" 
                 className="w-full h-full object-contain transition-all duration-[1000ms] ease-out opacity-80" 
                 style={{ 
@@ -244,7 +244,7 @@ export const FinalChapterUniverse: React.FC<FinalProps> = ({ onRestartStory }) =
                 <div className={`absolute inset-0 transition-all duration-[5000ms] ease-in ${
                   stage === "POLAROID_DEVELOP" ? "opacity-100 delay-500 blur-none sepia-0" : "opacity-0 blur-sm sepia-[0.5]"
                 }`}>
-                   <img src="/assets/images/bhuvi_photo.jpg" alt="Captured Moment" className="w-full h-full object-cover" />
+                   <img src="./assets/images/bhuvi_photo.jpg" alt="Captured Moment" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="mt-4 flex flex-col items-center justify-center text-slate-800" style={{ fontFamily: "Caveat, cursive" }}>

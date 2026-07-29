@@ -14,7 +14,7 @@ class SoundEngine {
   private sfxVolume: number = 0.8;
   private currentTrack: "song" = "song";
   private bgSongElement: HTMLAudioElement | null = null;
-  private songUrl: string = "/Bae Don Tamil 320 Kbps.mp3";
+  private songUrl: string = "./Bae Don Tamil 320 Kbps.mp3";
   public getIsPlaying(): boolean {
     return this.isPlaying;
   }
